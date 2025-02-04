@@ -102,7 +102,6 @@ End goal: Securely onboard devices by validating the signed data (if provided, t
         ```
 
 
-    **add example here!**
     * How to create Hex for above config (with script). The following outlines all of the steps needed to generate the hex needed in the example above. You can generate this hex and skip over the following steps by simply running this [script](https://github.com/jeremycohoe/IOSXE-Zero-Touch-Provisioning/blob/main/secure-ztp/convert-option143-uri-to-hex.py)
         1. Convert URI ascii to Hex https://www.rapidtables.com/convert/number/ascii-to-hex.html
             * Text URI: https://sjc-ads-2128.cisco.com:11601
@@ -150,7 +149,7 @@ End goal: Securely onboard devices by validating the signed data (if provided, t
         * A cert.pem and key.pem will be created
     1. Login to masa.cisco.com using CEC credentials
     1. Click on the green “New Request” button in the top right corner
-    ![](imgs/masa_new_request.png)
+         ![](imgs/masa_new_request.png)
     1. The Pinned Key Certificate will be the cert.pem that was just generated
     1. The Serial Number is associated with a single Cisco device
     1. For IOS XE, a Platform Key Certificate is not needed
